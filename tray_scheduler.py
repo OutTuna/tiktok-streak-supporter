@@ -36,7 +36,6 @@ def start_background_job(users, message, send_time, auto_close, restore_callback
         icon.stop()
         os._exit(0)
 
-    # default=True позволяет разворачивать программу двойным кликом по иконке
     menu = pystray.Menu(
         pystray.MenuItem('Развернуть', show_action, default=True),
         pystray.MenuItem('Выход', exit_action)
