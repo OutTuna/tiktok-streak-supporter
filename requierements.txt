@@ -1,0 +1,5 @@
+flet
+playwright
+schedule
+pystray
+pillow
